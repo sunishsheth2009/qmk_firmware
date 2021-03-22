@@ -6,7 +6,7 @@ from milc import cli
 
 import qmk.keymap
 import qmk.path
-from qmk.info_json_encoder import InfoJSONEncoder
+from qmk.json_encoders import InfoJSONEncoder
 
 
 @cli.argument('--no-cpp', arg_only=True, action='store_false', help='Do not use \'cpp\' on keymap.c')
